@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#mainHeader {
+    background-color: #7fffd4;
+    position: relative;
+    height: 200px;
+}
+
+#mainHeader h1 {
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+#mainHeader img {
+    position: absolute;
+    right: 150px;
+    top: -25px;
+    animation: 3.5s zoom linear infinite;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1.2, 1.2);
+    }
+    50% {
+        transform: scale(1, 1);
+    }
+    100% {
+        transform: scale(1.2, 1.2);
+    }
+}
+
+#date {
+    margin-left: 50px;
+}
+
+#start {
+    background-color: aliceblue;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+#content {
+    margin-left: 10px;
+    height: 480px;
+}
+
+#content img {
+    position: absolute;
+    right: 40px;
+    box-shadow: 2px 2px 5px #000;
+}
+
+#click {
+    margin-top: 100px;
+    margin-left: 70px;
+    width: 400px;
+    height: 200px;
+    font-size: 60px;
+}
+
+#pie {
+    height: 200px;
+    background-color: #7fffd4;
+}
+
+#seccionPie {
+    width: 800px;
+    position: relative;
+    top: 35px;
+    margin: 0 auto;
+    background-color: #f5fdff;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
